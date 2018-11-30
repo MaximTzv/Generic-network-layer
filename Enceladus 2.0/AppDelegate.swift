@@ -7,15 +7,27 @@
 //
 
 import UIKit
+import RxSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    private var appCoordinator: AppCoordinator!
+    private var bag = DisposeBag()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let githubManager = GithubManager()
+        let viewController = MainViewController(manager: githubManager)
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = viewController
+        self.window?.makeKeyAndVisible()
+        
+//        appCoordinator = AppCoordinator(window: window!)
+//        appCoordinator.start().subscribe().disposed(by: bag)
+        
         return true
     }
 
@@ -43,4 +55,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

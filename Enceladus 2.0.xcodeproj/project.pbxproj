@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1FDCAF5BFD5F5140268783 /* Pods_Enceladus_2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F61796FD246198C0438AD /* Pods_Enceladus_2_0.framework */; };
+		7C087E7D16C6C9161EF52E41 /* Pods_Enceladus_2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9797082BEC89CC77192813FF /* Pods_Enceladus_2_0Tests.framework */; };
+		D60F30D4106FAB20A1D31873 /* Pods_Enceladus_2_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EB21673B8276B24CAFD060 /* Pods_Enceladus_2_0UITests.framework */; };
 		F85FEFCA21ABFF6A00B4EE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FEFC921ABFF6A00B4EE81 /* AppDelegate.swift */; };
-		F85FEFCC21ABFF6A00B4EE81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FEFCB21ABFF6A00B4EE81 /* ViewController.swift */; };
 		F85FEFCF21ABFF6A00B4EE81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85FEFCD21ABFF6A00B4EE81 /* Main.storyboard */; };
 		F85FEFD121ABFF6C00B4EE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85FEFD021ABFF6C00B4EE81 /* Assets.xcassets */; };
 		F85FEFD421ABFF6C00B4EE81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85FEFD221ABFF6C00B4EE81 /* LaunchScreen.storyboard */; };
 		F85FEFDF21ABFF6C00B4EE81 /* Enceladus_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FEFDE21ABFF6C00B4EE81 /* Enceladus_2_0Tests.swift */; };
 		F85FEFEA21ABFF6C00B4EE81 /* Enceladus_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FEFE921ABFF6C00B4EE81 /* Enceladus_2_0UITests.swift */; };
+		F85FEFF921AC02FD00B4EE81 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FEFF821AC02FD00B4EE81 /* BaseCoordinator.swift */; };
+		F85FEFFC21AC1D6100B4EE81 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FEFFB21AC1D6100B4EE81 /* Repository.swift */; };
+		F85FF00221AC23C000B4EE81 /* RepositoryOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF00121AC23C000B4EE81 /* RepositoryOverviewViewController.swift */; };
+		F85FF00421AC23E300B4EE81 /* RepositoryOverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF00321AC23E300B4EE81 /* RepositoryOverviewViewModel.swift */; };
+		F85FF00621AC256C00B4EE81 /* RepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF00521AC256C00B4EE81 /* RepositoryCell.swift */; };
+		F85FF00821AC449E00B4EE81 /* RepositoryListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF00721AC449E00B4EE81 /* RepositoryListCoordinator.swift */; };
+		F85FF00A21AC484D00B4EE81 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF00921AC484D00B4EE81 /* AppCoordinator.swift */; };
+		F85FF00D21AC4DE000B4EE81 /* LanguageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF00C21AC4DE000B4EE81 /* LanguageListViewController.swift */; };
+		F85FF00F21AC4E7B00B4EE81 /* LanguageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF00E21AC4E7B00B4EE81 /* LanguageListViewModel.swift */; };
+		F85FF01121AC55EA00B4EE81 /* LanguageListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF01021AC55EA00B4EE81 /* LanguageListCoordinator.swift */; };
+		F85FF04D21B0138000B4EE81 /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF04C21B0138000B4EE81 /* Http.swift */; };
+		F85FF04F21B014F700B4EE81 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF04E21B014F700B4EE81 /* Encoding.swift */; };
+		F85FF05121B01F5F00B4EE81 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF05021B01F5F00B4EE81 /* Router.swift */; };
+		F85FF05321B031FC00B4EE81 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF05221B031FC00B4EE81 /* NetworkLogger.swift */; };
+		F85FF05521B0334500B4EE81 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF05421B0334500B4EE81 /* MainViewController.swift */; };
+		F85FF05721B0339F00B4EE81 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF05621B0339F00B4EE81 /* Repos.swift */; };
+		F85FF05A21B0347900B4EE81 /* GitHubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF05921B0347900B4EE81 /* GitHubService.swift */; };
+		F85FF05C21B0390500B4EE81 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85FF05B21B0390500B4EE81 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +54,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		201868147358A9B0442B1D4D /* Pods-Enceladus 2.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enceladus 2.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Enceladus 2.0UITests/Pods-Enceladus 2.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4972E184CD27A91C9CB03FBE /* Pods-Enceladus 2.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enceladus 2.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Enceladus 2.0Tests/Pods-Enceladus 2.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F4F61796FD246198C0438AD /* Pods_Enceladus_2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enceladus_2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E19CF06F322422F37364C98 /* Pods-Enceladus 2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enceladus 2.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Enceladus 2.0/Pods-Enceladus 2.0.release.xcconfig"; sourceTree = "<group>"; };
+		9797082BEC89CC77192813FF /* Pods_Enceladus_2_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enceladus_2_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B16124DAD1BF87C5DB3198 /* Pods-Enceladus 2.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enceladus 2.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Enceladus 2.0Tests/Pods-Enceladus 2.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D0A0B8346C15741E1BF6EE41 /* Pods-Enceladus 2.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enceladus 2.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Enceladus 2.0UITests/Pods-Enceladus 2.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2EB21673B8276B24CAFD060 /* Pods_Enceladus_2_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enceladus_2_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E763B133BE61532C040A6C36 /* Pods-Enceladus 2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enceladus 2.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Enceladus 2.0/Pods-Enceladus 2.0.debug.xcconfig"; sourceTree = "<group>"; };
 		F85FEFC621ABFF6A00B4EE81 /* Enceladus 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enceladus 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85FEFC921ABFF6A00B4EE81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F85FEFCB21ABFF6A00B4EE81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F85FEFCE21ABFF6A00B4EE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F85FEFD021ABFF6C00B4EE81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F85FEFD321ABFF6C00B4EE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +75,24 @@
 		F85FEFE521ABFF6C00B4EE81 /* Enceladus 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Enceladus 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85FEFE921ABFF6C00B4EE81 /* Enceladus_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enceladus_2_0UITests.swift; sourceTree = "<group>"; };
 		F85FEFEB21ABFF6C00B4EE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85FEFF821AC02FD00B4EE81 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		F85FEFFB21AC1D6100B4EE81 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		F85FF00121AC23C000B4EE81 /* RepositoryOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryOverviewViewController.swift; sourceTree = "<group>"; };
+		F85FF00321AC23E300B4EE81 /* RepositoryOverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryOverviewViewModel.swift; sourceTree = "<group>"; };
+		F85FF00521AC256C00B4EE81 /* RepositoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryCell.swift; sourceTree = "<group>"; };
+		F85FF00721AC449E00B4EE81 /* RepositoryListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCoordinator.swift; sourceTree = "<group>"; };
+		F85FF00921AC484D00B4EE81 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F85FF00C21AC4DE000B4EE81 /* LanguageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageListViewController.swift; sourceTree = "<group>"; };
+		F85FF00E21AC4E7B00B4EE81 /* LanguageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageListViewModel.swift; sourceTree = "<group>"; };
+		F85FF01021AC55EA00B4EE81 /* LanguageListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageListCoordinator.swift; sourceTree = "<group>"; };
+		F85FF04C21B0138000B4EE81 /* Http.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Http.swift; sourceTree = "<group>"; };
+		F85FF04E21B014F700B4EE81 /* Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoding.swift; sourceTree = "<group>"; };
+		F85FF05021B01F5F00B4EE81 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F85FF05221B031FC00B4EE81 /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		F85FF05421B0334500B4EE81 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F85FF05621B0339F00B4EE81 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
+		F85FF05921B0347900B4EE81 /* GitHubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubService.swift; sourceTree = "<group>"; };
+		F85FF05B21B0390500B4EE81 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1FDCAF5BFD5F5140268783 /* Pods_Enceladus_2_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C087E7D16C6C9161EF52E41 /* Pods_Enceladus_2_0Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +116,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60F30D4106FAB20A1D31873 /* Pods_Enceladus_2_0UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4391E56E864C9B6F42B7967B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E763B133BE61532C040A6C36 /* Pods-Enceladus 2.0.debug.xcconfig */,
+				6E19CF06F322422F37364C98 /* Pods-Enceladus 2.0.release.xcconfig */,
+				4972E184CD27A91C9CB03FBE /* Pods-Enceladus 2.0Tests.debug.xcconfig */,
+				C7B16124DAD1BF87C5DB3198 /* Pods-Enceladus 2.0Tests.release.xcconfig */,
+				D0A0B8346C15741E1BF6EE41 /* Pods-Enceladus 2.0UITests.debug.xcconfig */,
+				201868147358A9B0442B1D4D /* Pods-Enceladus 2.0UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAC7BC09F85509C308FD4ABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F4F61796FD246198C0438AD /* Pods_Enceladus_2_0.framework */,
+				9797082BEC89CC77192813FF /* Pods_Enceladus_2_0Tests.framework */,
+				E2EB21673B8276B24CAFD060 /* Pods_Enceladus_2_0UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F85FEFBD21ABFF6A00B4EE81 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +153,8 @@
 				F85FEFDD21ABFF6C00B4EE81 /* Enceladus 2.0Tests */,
 				F85FEFE821ABFF6C00B4EE81 /* Enceladus 2.0UITests */,
 				F85FEFC721ABFF6A00B4EE81 /* Products */,
+				4391E56E864C9B6F42B7967B /* Pods */,
+				DAC7BC09F85509C308FD4ABB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +171,18 @@
 		F85FEFC821ABFF6A00B4EE81 /* Enceladus 2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				F85FF05821B033CF00B4EE81 /* Services */,
+				F85FF00B21AC4DAD00B4EE81 /* LanguageList */,
+				F85FF00021AC226700B4EE81 /* Repositories */,
+				F85FEFFA21AC1D3B00B4EE81 /* Model */,
+				F85FEFF721AC02E200B4EE81 /* Coordinators */,
+				F85FEFFD21AC1D9800B4EE81 /* Generics */,
 				F85FEFC921ABFF6A00B4EE81 /* AppDelegate.swift */,
-				F85FEFCB21ABFF6A00B4EE81 /* ViewController.swift */,
 				F85FEFCD21ABFF6A00B4EE81 /* Main.storyboard */,
 				F85FEFD021ABFF6C00B4EE81 /* Assets.xcassets */,
 				F85FEFD221ABFF6C00B4EE81 /* LaunchScreen.storyboard */,
 				F85FEFD521ABFF6C00B4EE81 /* Info.plist */,
+				F85FF05421B0334500B4EE81 /* MainViewController.swift */,
 			);
 			path = "Enceladus 2.0";
 			sourceTree = "<group>";
@@ -125,6 +205,73 @@
 			path = "Enceladus 2.0UITests";
 			sourceTree = "<group>";
 		};
+		F85FEFF721AC02E200B4EE81 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F85FF00921AC484D00B4EE81 /* AppCoordinator.swift */,
+				F85FEFF821AC02FD00B4EE81 /* BaseCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F85FEFFA21AC1D3B00B4EE81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F85FEFFB21AC1D6100B4EE81 /* Repository.swift */,
+				F85FF05621B0339F00B4EE81 /* Repos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F85FEFFD21AC1D9800B4EE81 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				F85FF04821B011B500B4EE81 /* Networking */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		F85FF00021AC226700B4EE81 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F85FF00121AC23C000B4EE81 /* RepositoryOverviewViewController.swift */,
+				F85FF00321AC23E300B4EE81 /* RepositoryOverviewViewModel.swift */,
+				F85FF00521AC256C00B4EE81 /* RepositoryCell.swift */,
+				F85FF00721AC449E00B4EE81 /* RepositoryListCoordinator.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F85FF00B21AC4DAD00B4EE81 /* LanguageList */ = {
+			isa = PBXGroup;
+			children = (
+				F85FF00C21AC4DE000B4EE81 /* LanguageListViewController.swift */,
+				F85FF00E21AC4E7B00B4EE81 /* LanguageListViewModel.swift */,
+				F85FF01021AC55EA00B4EE81 /* LanguageListCoordinator.swift */,
+			);
+			path = LanguageList;
+			sourceTree = "<group>";
+		};
+		F85FF04821B011B500B4EE81 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F85FF04C21B0138000B4EE81 /* Http.swift */,
+				F85FF04E21B014F700B4EE81 /* Encoding.swift */,
+				F85FF05021B01F5F00B4EE81 /* Router.swift */,
+				F85FF05221B031FC00B4EE81 /* NetworkLogger.swift */,
+				F85FF05B21B0390500B4EE81 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F85FF05821B033CF00B4EE81 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F85FF05921B0347900B4EE81 /* GitHubService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85FEFEE21ABFF6C00B4EE81 /* Build configuration list for PBXNativeTarget "Enceladus 2.0" */;
 			buildPhases = (
+				E602200FDBA8835A73B429FC /* [CP] Check Pods Manifest.lock */,
 				F85FEFC221ABFF6A00B4EE81 /* Sources */,
 				F85FEFC321ABFF6A00B4EE81 /* Frameworks */,
 				F85FEFC421ABFF6A00B4EE81 /* Resources */,
+				F75203A39A6973E99BF2009B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +298,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85FEFF121ABFF6C00B4EE81 /* Build configuration list for PBXNativeTarget "Enceladus 2.0Tests" */;
 			buildPhases = (
+				A9E5BE93F14E8C6163762F6B /* [CP] Check Pods Manifest.lock */,
 				F85FEFD621ABFF6C00B4EE81 /* Sources */,
 				F85FEFD721ABFF6C00B4EE81 /* Frameworks */,
 				F85FEFD821ABFF6C00B4EE81 /* Resources */,
@@ -167,6 +317,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85FEFF421ABFF6C00B4EE81 /* Build configuration list for PBXNativeTarget "Enceladus 2.0UITests" */;
 			buildPhases = (
+				AF9C36ACB56DCFE9A5E9C297 /* [CP] Check Pods Manifest.lock */,
 				F85FEFE121ABFF6C00B4EE81 /* Sources */,
 				F85FEFE221ABFF6C00B4EE81 /* Frameworks */,
 				F85FEFE321ABFF6C00B4EE81 /* Resources */,
@@ -251,13 +402,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A9E5BE93F14E8C6163762F6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Enceladus 2.0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF9C36ACB56DCFE9A5E9C297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Enceladus 2.0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E602200FDBA8835A73B429FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Enceladus 2.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F75203A39A6973E99BF2009B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Enceladus 2.0/Pods-Enceladus 2.0-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Enceladus 2.0/Pods-Enceladus 2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F85FEFC221ABFF6A00B4EE81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F85FEFCC21ABFF6A00B4EE81 /* ViewController.swift in Sources */,
+				F85FEFF921AC02FD00B4EE81 /* BaseCoordinator.swift in Sources */,
+				F85FF04D21B0138000B4EE81 /* Http.swift in Sources */,
+				F85FF04F21B014F700B4EE81 /* Encoding.swift in Sources */,
+				F85FF00621AC256C00B4EE81 /* RepositoryCell.swift in Sources */,
+				F85FF00821AC449E00B4EE81 /* RepositoryListCoordinator.swift in Sources */,
 				F85FEFCA21ABFF6A00B4EE81 /* AppDelegate.swift in Sources */,
+				F85FF01121AC55EA00B4EE81 /* LanguageListCoordinator.swift in Sources */,
+				F85FF05521B0334500B4EE81 /* MainViewController.swift in Sources */,
+				F85FF00221AC23C000B4EE81 /* RepositoryOverviewViewController.swift in Sources */,
+				F85FF05721B0339F00B4EE81 /* Repos.swift in Sources */,
+				F85FF05A21B0347900B4EE81 /* GitHubService.swift in Sources */,
+				F85FF05321B031FC00B4EE81 /* NetworkLogger.swift in Sources */,
+				F85FF05C21B0390500B4EE81 /* NetworkManager.swift in Sources */,
+				F85FF00A21AC484D00B4EE81 /* AppCoordinator.swift in Sources */,
+				F85FF05121B01F5F00B4EE81 /* Router.swift in Sources */,
+				F85FF00F21AC4E7B00B4EE81 /* LanguageListViewModel.swift in Sources */,
+				F85FEFFC21AC1D6100B4EE81 /* Repository.swift in Sources */,
+				F85FF00D21AC4DE000B4EE81 /* LanguageListViewController.swift in Sources */,
+				F85FF00421AC23E300B4EE81 /* RepositoryOverviewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +693,7 @@
 		};
 		F85FEFEF21ABFF6C00B4EE81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E763B133BE61532C040A6C36 /* Pods-Enceladus 2.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +711,7 @@
 		};
 		F85FEFF021ABFF6C00B4EE81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E19CF06F322422F37364C98 /* Pods-Enceladus 2.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +729,7 @@
 		};
 		F85FEFF221ABFF6C00B4EE81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4972E184CD27A91C9CB03FBE /* Pods-Enceladus 2.0Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +750,7 @@
 		};
 		F85FEFF321ABFF6C00B4EE81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B16124DAD1BF87C5DB3198 /* Pods-Enceladus 2.0Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +771,7 @@
 		};
 		F85FEFF521ABFF6C00B4EE81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A0B8346C15741E1BF6EE41 /* Pods-Enceladus 2.0UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +791,7 @@
 		};
 		F85FEFF621ABFF6C00B4EE81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201868147358A9B0442B1D4D /* Pods-Enceladus 2.0UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
